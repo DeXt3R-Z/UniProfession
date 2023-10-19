@@ -1,5 +1,6 @@
 package com.example.uniprofession.presentation.theme
 
+import android.annotation.SuppressLint
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
@@ -121,4 +122,5 @@ val typography: Typography = Typography(
     )
 )
 
+@SuppressLint("CompositionLocalNaming")
 val UniProfessionFontTheme = staticCompositionLocalOf { typography }
